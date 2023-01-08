@@ -1,0 +1,27 @@
+@font-face {
+    font-family: "Lato_Regular";
+    src: url("../Fonts/Lato/Lato-Regular.ttf");
+}
+
+@font-face {
+    font-family: playfairSC_Bold;
+    src: url("../Fonts/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf");
+}
+
+$primaryFont: "Lato Regular", sans-serif;
+$secondaryFont: playfairSC_Bold, sans-serif;
+
+$navcolor: #f4f4f4;
+$navLinkColor1: #616060;
+
+$navbarColor: #f4f4f4;
+$navLinkColor: #616060;
+$titleColor: #151515;
+$subTitleColor: #bc694e;
+$colorGray: #848484;
+$workColor: #4f4f4f;
+$descriptionColor: #a8a8a8;
+$whiteColor: #ffffff;
+$blackColor: #000000;
+$paragColor: #4e4e4e;
+$footerColor: #f4f4f4;

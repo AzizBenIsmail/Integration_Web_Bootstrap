@@ -1,0 +1,175 @@
+@import "variables.scss";
+
+body {
+	overflow-x: hidden;
+}
+
+.navbar {
+	background-color: $navbarColor;
+}
+
+.navbar-nav {
+	padding-left: 20.375rem;
+
+	@media screen and (max-width: 1200px) {
+		padding-left: calc(20.375rem * 80 / 100);
+	}
+
+	@media screen and (max-width: 992px) {
+		padding-left: calc(20.375rem * 65 / 100);
+	}
+}
+
+.nav-item {
+	padding-right: 5.93rem;
+
+	@media screen and (max-width: 992px) {
+		padding-right: calc(5.93rem * 65 / 100);
+	}
+}
+
+.last {
+	padding-right: 0;
+}
+
+.nav-link {
+	color: $navLinkColor;
+	font-size: 1.875rem;
+	font-family: $primaryFont;
+
+	@media screen and (max-width: 1200px) {
+		font-size: calc(1.875rem * 80 / 100);
+	}
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(1.875rem * 65 / 100);
+	}
+}
+
+.title {
+	font-size: 2.2rem;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(2.2rem * 65 / 100);
+	}
+}
+
+.title1 {
+	@extend .title;
+	color: $titleColor;
+	padding-top: 5.43rem;
+	font-family: $secondaryFont;
+
+}
+
+.title2 {
+	@extend .title;
+	color: $subTitleColor;
+}
+
+p {
+	font-family: $primaryFont;
+	font-size: 1.5rem;
+	color: $paragColor;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(1.5rem * 65 / 100);
+	}
+}
+
+#section3 {
+	position: relative;
+}
+
+.box_text {
+	position: absolute;
+	top: 1.8rem;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.box_text h1 {
+	border: 0.1875rem solid #fff;
+	padding: 1rem;
+	color: $whiteColor;
+}
+
+footer {
+	background-color: $footerColor ;
+	height: 7.68rem;
+}
+
+footer p {
+	color: #141414;
+	font-size: 1.125rem;
+	font-family: $primaryFont;
+	margin: 0;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(1.125rem * 65 / 100);
+	}
+}
+
+.footer_social i {
+	color: #848484;
+	padding-left: 1rem;
+
+
+	@media screen and (max-width: 768px) {
+		padding-left: 0.5rem;
+	}
+}
+
+.footer_social i:hover {
+	color: #141414;
+}
+
+.heading-2 {
+	font-family: $secondaryFont;
+	font-size: 2.2rem;
+	color: $subTitleColor;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(2.2rem * 65 / 100);
+	}
+
+	@media screen and (max-width: 768px) {
+		font-size: calc(2.2rem * 55 / 100);
+	}
+}
+
+.heading {
+	font-family: $primaryFont;
+}
+
+.heading-3 {
+	@extend .heading;
+	font-size: 1.875rem;
+	color: $workColor;
+	font-weight: bold;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(1.875rem * 65 / 100);
+	}
+}
+
+.heading-4 {
+	@extend .heading;
+	color: $colorGray;
+	font-size: 1.125rem;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(1.125rem * 65 / 100);
+	}
+}
+
+#timeLine i {
+	color: $workColor;
+	font-size: 2.5rem;
+
+	@media screen and (max-width: 992px) {
+		font-size: calc(2.5rem * 65 / 100);
+	}
+}
